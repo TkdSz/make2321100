@@ -37,7 +37,9 @@ function cal() {
     if (document.getElementById('display').value == 2321100) {
         q = document.getElementById("display");
         q.classList.add("win")
-        alert("Clear!") ;
-
+        alert("Clear! クリアツイートはこれをどうにかしてもろて \n https://is.gd/TUN1wV " ) ;
+    } else {
+        q = document.getElementById("display") ;
+        q.classList.remove("win")
     }
 }
