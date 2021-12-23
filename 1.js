@@ -36,8 +36,9 @@ function cal() {
     document.getElementById("display").value = z + "" + Math.floor(eval(ans)) ;
     if (document.getElementById('display').value == 2321100) {
         q = document.getElementById("display");
-        q.classList.add("win")
-        alert("Clear! クリアツイートはこれをどうにかしてもろて \n https://is.gd/TUN1wV " ) ;
+        q.classList.add("win") ;
+        r = document.getElementById("message");
+        r.classList.toggle("is-hidden") ;
     } else {
         q = document.getElementById("display") ;
         q.classList.remove("win")
