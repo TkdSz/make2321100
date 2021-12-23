@@ -63,3 +63,11 @@ input{
     color: firebrick;
     font-weight: bold;
 }
+
+.message{
+    font-size:15px ;
+}
+
+.message.is-hidden{
+    display: none  ;
+}
